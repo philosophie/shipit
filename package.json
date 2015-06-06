@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js"
+    "start": "node --harmony index.js",
+    "build_public": "browserify ./public_src/javascripts/application.js -o ./public/javascripts/application.js"
   },
   "author": "Nick Giancola",
   "license": "ISC",
@@ -12,6 +13,10 @@
     "koa-better-body": "^1.0.17",
     "koa-router": "^5.1.1",
     "koa-static-cache": "^3.1.1",
-    "koa.io": "0.0.3"
+    "koa.io": "0.0.3",
+    "moment": "^2.10.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.3"
   }
 }
