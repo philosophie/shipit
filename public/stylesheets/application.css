@@ -1,0 +1,14 @@
+body {
+  background: #e43a6a;
+  color: #fff;
+  font-family: 'ff-dagny-web-pro', 'Helvetica Neue', Helvetica, sans-serif, sans-serif;
+}
+
+h1#app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  margin: 0;
+}
